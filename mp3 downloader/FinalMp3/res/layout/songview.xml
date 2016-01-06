@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+  
+    android:background="@drawable/grad"> 
+  
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:background="@drawable/grad"
+        android:orientation="horizontal">
+        
+    
+    <ImageView 
+       
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"/>
+        
+        
+    </LinearLayout>
+    
+    
+	<RelativeLayout
+	    android:layout_weight="1"
+		android:id="@+id/startAppStandardBanner" 
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+	
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_above="@+id/seekbar"
+        android:id="@+id/buttons"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+	>
+		<ImageButton
+		    android:id="@+id/button_play"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:contentDescription="@string/btn_download"
+		    android:cropToPadding="false"
+		    android:gravity="center_horizontal"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/playicon"
+		    android:background="#000000"
+		    android:layout_marginRight="20dp"
+		    />
+		
+		<Button
+		    android:layout_marginTop="2dp"
+		    
+		    android:id="@+id/download"
+		    android:background="@drawable/dwnicn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	   
+		    android:gravity="center_vertical|center_horizontal" />
+		
+	
+		
+	</LinearLayout>
+		    	
+	<LinearLayout
+	    android:id="@+id/seekbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_gravity="bottom"
+	    android:background="#181818"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical"
+	    android:paddingBottom="49dp"
+	    android:paddingLeft="4dp"
+	    android:paddingRight="4dp" >
+		
+		<SeekBar 
+			android:id="@+id/progress_bar"  
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+       		android:layout_gravity="center_horizontal|bottom"
+			style="?android:attr/progressBarStyleHorizontal"
+		/>
+	  <com.krmkc.nqcwv93000.AdView
+        xmlns:ap="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/myAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        
+        />
+	</LinearLayout>
+</LinearLayout>

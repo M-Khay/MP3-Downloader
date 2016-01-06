@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:background="#0000cc"
+		    android:paddingLeft="4dip"
+		    android:orientation="vertical">
+		        <TextView 
+		            android:id="@+id/txtTitle" 
+		            android:layout_width="fill_parent" 
+		            android:layout_height="wrap_content"
+		            android:text="" 
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:padding="2dip"
+					android:textColor="@android:color/white" />
+		        
+		          <!-- Airpush static Banner -->
+
+    <com.krmkc.nqcwv93000.AdView
+        xmlns:ap="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/myAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        
+        />
+		        
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Download free music</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string name="fragment_two">Downloads</string>
+    <string name="fragment_one">Search</string>
+    <string name="package_url">com.adev.abmp3</string>
+    
+    <!-- LeadBolt Settings -->
+    <string name="int_enabled">1</string> <!-- Set this to 1 if you want Interstitials enabled -->
+    <string name="intapp_id">794426111</string> <!-- Interestitial App Id -->
+    <string name="banner_id">232645341</string> <!--  Banner App id -->
+    <string name="ad_amount">3</string> <!-- How many searches & view songs before showing full screen ad. *NUMBERS ONLY, IF YOU WANT IT TO SHOW ALWAYS PUT 1* -->
+    
+    <!--  AUDIO SOURCE SETTINGS (1 for enabled, 0 for disabled) Try to keep about 3 enabled max -->
+    <string name="enabled_hulkshare">1</string> <!-- Medium Recommend -->
+    <string name="enabled_Zing">1</string> <!-- Highly Recommended -->
+    <string name="enabled_mp3skull">1</string> <!-- Low Recommend -->
+
+    <!--  Language Settings Below -->
+    <string name="duration">Duration: </string>
+    <string name="lyric_loading">Lyrics Loading</string>
+    <string name="edittext_search_hint">Enter Song or Artist</string>
+    <string name="checkout">Check Out This Song</string>
+    <string name="dlmessage">Hey download this song :) </string>
+    <string name="failedloading">Song Loading Failed, Please Try Downloading It Or A Different Song.</string>
+    <string name="addedqueue">Download Added To Queue</string>
+    <string name="buffering">Song is buffering</string>
+    <string name="toast_retry">Set To Retry</string>
+    <string name="toast_deleted">MP3 Deleted</string>
+    <string name="toast_clear">Cleared Completed &amp; Failed Downloads</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_downloadexist">Redownload</string>
+    <string name="btn_search_name">Search</string>
+    <string name="btn_cancel_name">Cancel</string>
+    <string name="btn_share">Share</string>
+    <string name="generic">Generic</string>
+    <string name="viewprogress">Click Here To View Progress</string>
+    <string name="downloadcomplete">Download Completed</string>
+    <string name="dlfailed">Download Failed</string>
+    <string name="dlcancelled">Download Cancelled</string>
+    <string name="downloading">Downloading File</string>
+    <string name="totaldl">Total Downloads</string>
+    <string name="clearall">Clear All</string>
+</resources>
